@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        blackOps: ["Black Ops One", "sans-seri"],
+        poppins: ["poppins", "sans-seri"],
+      },
+    },
   },
   plugins: [],
 }

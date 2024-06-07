@@ -10,6 +10,9 @@ export default {
         blackOps: ["Black Ops One", "sans-seri"],
         poppins: ["poppins", "sans-seri"],
       },
+      screens: {
+        850: "850px"
+      }
     },
   },
   plugins: [],

@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
 import About from "./pages/About";
-import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 
 function App() {
@@ -12,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<div className="text-center text-3xl font-blackOps mt-20">Not Found</div>} />
       </Routes>
     </div>
   );

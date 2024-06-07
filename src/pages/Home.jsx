@@ -10,7 +10,7 @@ const Home = () => {
         <img src={background} alt="roynaenergy" className="min-w-[215%] md:min-w-[150%] lg:min-w-[120%] xl:min-w-[105%]" />
       </div>
       <div className="w-full overflow-hidden">
-        <header className="pt-2 sm:pt-0">
+        <header className="pt-5 sm:pt-0">
           <img
             src={logo}
             alt="royanenergy"

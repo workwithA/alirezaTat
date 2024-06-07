@@ -8,13 +8,13 @@ const Nav = () => {
         <img src={logo} alt="royanenergy" className="w-10" />
       </Link>
       <Link to="/about">
-        <p className="font-sans hover:font-bold transition-all sm:text-white sm:opacity-80">About Us</p>
+        <p className="font-sans hover:scale-110 transition-all sm:text-white sm:opacity-80">About Us</p>
       </Link>
       <Link to="/team">
-        <p className="font-sans hover:font-bold transition-all sm:text-white sm:opacity-80">Our Team</p>
+        <p className="font-sans hover:scale-110 transition-all sm:text-white sm:opacity-80">Our Team</p>
       </Link>
       <Link to="/contact">
-        <p className="font-sans hover:font-bold transition-all sm:text-white sm:opacity-80">Contact Us</p>
+        <p className="font-sans hover:scale-110 transition-all sm:text-white sm:opacity-80">Contact Us</p>
       </Link>
     </div>
   );
